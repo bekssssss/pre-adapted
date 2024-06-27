@@ -1,0 +1,206 @@
+@media (max-width: 1200px) {
+
+    .nav {
+        display: none;
+    }
+
+    .button-wrapper {
+        display: none;
+    }
+
+    header .container {
+        display: flex;
+       justify-content: center;
+    }
+
+
+    .button-wrapper {
+        width: 200px;
+    }
+
+ 
+    .button-wrapper a {
+        white-space:  nowrap;
+    }
+
+    
+    .colons {
+        width: 33.33%;
+
+    }
+
+    .features {
+        width:  100%;
+        gap: 5px;
+    }
+
+    .features img {
+        width: 100%;
+        margin: 0;
+
+    }
+
+    .row .col-6 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .features .features-inner {
+        width: 50%;
+        margin: 0;
+        margin-top: 50px;
+
+    }
+
+    .price .row {
+        justify-content: baseline;
+    }
+
+    .map-img img {
+        width: 100%;
+    }
+
+    .pop-logo {
+        width: 100%;
+        display: flex;
+        gap:  4.16%;
+
+        img {
+            width: 15%;
+        }
+    }
+    .features {
+        display: flex;
+    }
+
+
+    .info-box {
+        width: 20vw;
+    }
+
+
+    .colons {
+        /* flex-direction: column; */
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .info {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .title  {   
+        font-size: 20px;
+    }
+
+
+    .container {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+
+    .hero .container .row {
+        display: flex;
+        flex-direction: column;
+        align-items:  center;
+    
+    }
+
+
+    .features {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .info {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    .features .features-inner {
+        margin-left: 100px;
+    }
+
+
+
+    .colons {
+     display: flex;
+     flex-direction: column;
+    }
+
+
+    .col-4 {
+        width: 50%;
+    }
+
+
+    .col-4 .sign-up {
+        margin-left: 50px;
+
+}
+}
+
+
+
+
+@media (max-width: 425px) {
+    .container {
+        max-width: 172px;
+    }
+
+
+    header .container {
+        display: flex;
+       justify-content: center;
+    }
+
+
+ .box h1, span, p, button {
+            font-size: 30px;
+            width:   362px;
+    }
+
+.hero img {
+        width: 150%;
+        margin-top: 50%;
+}
+
+    .hero .container .row {
+            width: 550px;
+    }
+
+
+    .info {
+        width: 450px;
+        align-items: baseline;
+        text-align:left;
+        margin-left: 100px;
+    }
+
+.features  p, h1{
+    font-size: 30px ;
+}
+
+.features img {
+        width: 150%;
+        margin-top: 50%;
+}
+}
+
+
